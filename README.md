@@ -349,3 +349,41 @@ What's happening:
 - In the String constant pool, a String object is likely to have one or more references. If several references point to the same String without even knowing it, it would be bad if one of the references modify that String value. That's why String objects are immutable.
 - Well, now you could say, what if someone overrides the functionality of String class? That's the reason that the String class is marked final so that nobody can override the behavior of its methods.
 
+### Introduction to OOPS
+Classes and Objects are basic concepts of Object Oriented Programming which revolve around real-life entities.
+
+#### Object: It is a basic unit of Object Oriented Programming and represents the real-life entities
+
+An object consists of:-
+
+    - State : It is represented by the attributes of an object. It also reflects the properties of an object.
+    - Behavior : It is represented by the methods of an object. It also reflects the response of an object with other objects.
+    - Identity : It gives a unique name to an object and enables one object to interact with other objects.
+
+#### Inheritance
+The capability of a class to derive properties and characteristics from another class is called Inheritance
+- Sub Class: The class that inherits properties from another class is called Sub class or Derived Class.
+- Super Class: The class whose properties are inherited by sub class is called Base Class or Super class.
+- Reusability: Inheritance supports the concept of “reusability”, i.e. when we want to create a new class and there is already a class that includes some of the code that we want, we can derive our new class from the existing class. By doing this, we are reusing the fields and methods of the existing class.
+
+#### Polymorphism
+means having many forms. 
+- Like a man at the same time can be a father, a husband, and an employee. So the same person posses different behavior in different situations. This is called polymorphism. 
+
+#### Abstraction
+Data Abstraction is the property by virtue of which only the essential details are displayed to the user. 
+- The trivial or the non-essentials units are not displayed to the user. 
+- Ex: A car is viewed as a car rather than its individual components
+- Advantages of Abstraction
+  - It reduces the complexity of viewing things.
+  - Avoids code duplication and increases reusability.
+  - Helps to increase the security of an application or program as only the important details are provided to the user.
+
+#### Encapsulation
+Encapsulation is defined as the wrapping up of data under a single unit. 
+- It is the mechanism that binds together the code and the data it manipulates.
+- Advantages of Encapsulation:
+  - Data Hiding: The user will have no idea about the inner implementation of the class. It will not be visible to the user how the class is storing values in the variables. He only knows that we are passing the values to a setter method and that the variables are getting initialized with that value.
+  - Increased Flexibility: We can make the variables of the class as read-only or write-only, depending on our requirements. If we wish to make the variables as read-only then we have to omit the setter methods such as setName(), setAge() etc. or if we wish to make the variables as write-only then we have to omit the get methods such as getName(), getAge(), etc.
+  - Reusability: Encapsulation also improves the re-usability and makes the code easy to change with new requirements.
+  - Testing code is easy: Encapsulated code is easy to test for unit testing.
