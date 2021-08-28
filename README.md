@@ -7,3 +7,5 @@
 [Notes](day-3/day3.md)
 ## Day 4
 [Notes](day-4/day4.md)
+## Day 5
+[Notes](day-5/day5.md)
