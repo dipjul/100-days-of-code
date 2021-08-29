@@ -11,3 +11,13 @@
 [Notes](day-5/day5.md)
 ## Day 6
 [Notes](day-6/day6.md)
+## Day 7
+[Notes](day-7/day7.md)
+## Day 8
+[Notes](day-8/day8.md)
+## Day 9
+[Notes](day-9/day9.md)
+## Day 10
+[Notes](day-10/day10.md)
+## Day 11
+[Notes](day-11/day11.md)
